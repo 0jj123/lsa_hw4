@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>113213029 DNS Lab - HW4</title>
+  <style>
+    body { font-family: -apple-system, "Noto Sans TC", sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; color: #222; }
+    h1 { border-bottom: 2px solid #ddd; padding-bottom: 8px; }
+    figure { margin: 32px 0; }
+    img { max-width: 100%; border: 1px solid #ccc; border-radius: 6px; }
+    figcaption { margin-top: 8px; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>LSA HW4 — DNS Lab</h1>
+  <p>學號：113213029　網域：www.113213029.lab.test</p>
+
+  <figure>
+    <h2>1. 瀏覽器存取網站</h2>
+    <img src="browser.png" alt="瀏覽器開啟 http://www.113213029.lab.test 顯示 Hello DNS Lab">
+    <figcaption>透過自訂網域成功開啟網頁</figcaption>
+  </figure>
+
+  <figure>
+    <h2>2. dig 查詢結果</h2>
+    <img src="dig.png" alt="dig www.113213029.lab.test 回傳 A 紀錄 10.0.2.15">
+    <figcaption>A 紀錄解析至 10.0.2.15，status: NOERROR</figcaption>
+  </figure>
+</body>
+</html>
